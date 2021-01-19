@@ -1,4 +1,4 @@
-/* General */
+/*** General ***/
 :root{
   --videoControl:#474747;
   --regularGrey:#C4C4C4;
@@ -11,23 +11,11 @@
   --white:#FFFFFF;
 }
 body{
-  background-color:var(--neutral);
-  color:var(--lightGrey);
-  overflow-y:hidden;
+  background-color:var(--white);
+  color:var(--neutral);
+  font-family:"Lato";
   padding:0;
   margin:0;
-}
-hr{
-  border:solid 1px var(--white);
-  margin:25px 0;
-  height:0;
-}
-.content{
-  grid-template-columns:50% 50%;
-  display:grid;
-}
-.content > div{
-  position:relative;
 }
 @font-face{
   src:url("./res/Rubik-MediumItalic.ttf");
@@ -40,28 +28,54 @@ hr{
   font-style:italic;
 }
 
-/* Header */
-.header{
-  position:relative;
-  padding:25px 0 0 50px;
-  line-height:42.66px;
-  color:var(--white);
-  font-family:"Rubik";
-  font-style:italic;
-  font-size:36px;
+/*** Main page ***/
+
+/* General */
+.main-page{
+  background-color:var(--neutral);
+  color:var(--lightGrey);
+  overflow-y:hidden;
+  height:100vh;
 }
-.header span{
+.main-page .content{
+  grid-template-columns:50% 50%;
+  height:calc(100vh - 75px);
+  position:relative;
+  display:grid;
+}
+.main-page .content > div{
+  position:relative;
+}
+.main-page .content hr{
+  border:solid 1px var(--white);
+  margin:25px 0;
+  height:0;
+}
+
+/* Header */
+/* header height: 75px */
+.main-page .header{
+  padding:25px 0 0 50px;
+  font-family:"Rubik";
+  color:var(--white);
+  font-style:italic;
+  position:relative;
+  line-height:45px;
+  font-size:36px;
+  height:50px;
+}
+.main-page .header span{
   margin-left:20px;
 }
-.header img{
+.main-page .header img{
   height:40px;
 }
 
 /* Preview */
-.preview-wrapper{
-  height:calc(100vh - 50px);
+.main-page .preview-wrapper{
+  height:100%;
 }
-.preview{
+.main-page .preview{
   transform:translate(-50%,-50%);
   position:absolute;
   width:80%;
@@ -70,41 +84,43 @@ hr{
 }
 
 /* Scroll */
-.scroll{
+.main-page .scroll{
+  height:calc(100% - 55px);
+  position:relative;
   text-align:right;
+  overflow-y:auto;
   padding:0 8%;
 }
-.scroll h1{
+.main-page .scroll h1{
   color:var(--regularGrey);
   font-family:"Rubik";
-  line-height:78.84px;
   font-style:italic;
+  line-height:80px;
   font-size:40px;
   font-size:64px;
   margin:5px 0;
 }
-.scroll h2{
+.main-page .scroll h2{
   color:var(--lightGrey);
   font-family:"Rubik";
-  line-height:42.66px;
   font-style:italic;
+  line-height:45px;
   font-size:36px;
   margin:5px 0;
 }
-.scroll p{
+.main-page .scroll p{
   color:var(--lightGrey);
-  font-family:"Lato";
-  line-height:22.8px;
   font-style:italic;
+  line-height:25px;
   font-size:19px;
   margin:5px 0;
 }
 
 /* Tags */
-.tags{
+.main-page .tags{
   margin-top:25px;
 }
-.tags span{
+.main-page .tags span{
   display:inline-block;
   font-family:"Rubik";
   border-radius:10px;
@@ -113,4 +129,121 @@ hr{
   font-size:15px;
   height:20px;
   width:90px;
+}
+
+/*** Content pages ***/
+
+/* Top section */
+.content-page .up{
+  background-color:var(--neutral);
+  padding:5px 0 50px 0;
+  color:var(--white);
+  text-align:center;
+  position:relative;
+}
+.content-page .up h1{
+  font-family:"Rubik";
+  color:var(--orange);
+  line-height:120px;
+  font-size:100px;
+  margin:0 0 15px 0;
+}
+.content-page .up h2{
+  text-decoration:underline;
+  font-family:"Rubik";
+  line-height:60px;
+  font-size:50px;
+  margin:15px;
+}
+.content-page .up p{
+  line-height:24px;
+  margin:25px 35%;
+  font-size:20px;
+}
+.content-page .up img{
+  border:5px solid #FFFFFF;
+  box-sizing:border-box;
+  border-radius:30px;
+  height:300px;
+  width:300px;
+}
+
+/* Author section */
+.content-page .author{
+  background-color:var(--orange);
+  grid-template-columns:60% 40%;
+  display:grid;
+}
+.content-page .author > div:first-of-type{
+  padding:50px 15%;
+}
+.content-page .author h1{
+  font-family:"Rubik";
+  margin:0 0 25px 0;
+  line-height:72px;
+  font-size:60px;
+}
+.content-page .author p{
+  line-height:36px;
+  font-size:30px;
+  margin:15px 0;
+}
+.content-page .author img{
+  border:5px solid #FFFFFF;
+  left:calc(50% - 150px);
+  box-sizing:border-box;
+  border-radius:30px;
+  position:relative;
+  margin:50px 0;
+  height:300px;
+  width:300px;
+}
+
+/*** Essay ***/
+
+/* General */
+.essay-page .content{
+  margin:150px 0;
+}
+.essay-page .content p{
+  position:relative;
+  line-height:30px;
+  margin:25px 15%;
+  font-size:25px;
+}
+.essay-page .content img{
+  left:calc(50% - 150px);
+  border-radius:30px;
+  position:relative;
+  margin:25px 0;
+  height:300px;
+  width:300px;
+}
+
+/*** Video ***/
+
+/* General */
+.video-page .author{
+  background-color:var(--purple);
+}
+.video-page .up h1{
+  color:var(--purple);
+}
+
+/*** Gallery ***/
+
+/* General */
+.gallery-page .author{
+  background-color:var(--weirdBlue);
+}
+.gallery-page .up h1{
+  color:var(--weirdBlue);
+}
+.gallery-page .content div{
+  background-color:var(--regularGrey);
+  left:calc(50% - 200px);
+  position:relative;
+  margin:100px 0;
+  height:300px;
+  width:400px;
 }

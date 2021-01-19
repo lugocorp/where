@@ -5,10 +5,10 @@
 - [ ] front page
   - [x] plain content
   - [ ] regular scroll
-- [ ] templates
-    - [ ] essay
-    - [ ] video
-    - [ ] gallery
+- [x] templates
+    - [x] essay
+    - [x] video
+    - [x] gallery
 - [ ] Python script
 
 #### January 18th deadline
