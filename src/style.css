@@ -86,9 +86,9 @@ body{
 /* Scroll */
 .main-page .scroll{
   height:calc(100% - 55px);
+  overflow-y:hidden;
   position:relative;
   text-align:right;
-  overflow-y:auto;
   padding:0 8%;
 }
 .main-page .scroll h1{
