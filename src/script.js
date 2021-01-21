@@ -22,10 +22,11 @@ $(document).ready(function(){
     let inner=$(".scroll > div").get(0).getBoundingClientRect();
     let rect=$(".scroll").get(0).getBoundingClientRect();
     let {left,top}=$(".scroll > div").offset();
+    let orig_top=top;
     top+=delta;
     if(top>rect.y) top=rect.y;
-    if(top+inner.height<rect.bottom) top=rect.bottom-inner.height;
-    //let last=$(".scroll > div > div").children().last().offset();
+    let last_top=$(".scroll > div > div").last().offset().top-orig_top;
+    if(top+last_top<rect.top) top=rect.top-last_top;
     $(".scroll > div").offset({top,left});
     let above=true;
     let possible=true;
@@ -36,6 +37,9 @@ $(document).ready(function(){
       if(possible && delta>=0 && above){
         opacity=1;
         possible=false;
+        let thumb=$(this).attr("thumbnail");
+        if(thumb.length) $(".preview").attr("src",thumb);
+        else $(".preview").attr("src","res/where/white.png");
       }
       $(this).css("opacity",opacity);
       above=(delta<0);

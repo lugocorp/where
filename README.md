@@ -23,15 +23,19 @@
 - title
 - description
 - content type (video, gallery, essay)
-
-
-
+- content
+  - video
+    - link
+  - gallery
+  - essay
+    - thumbnail
+    - sections (text or image path) (...)
 - number of authors
-- author
+- authors (...)
   - name
   - description
   - image
   - number of links
-  - links
+  - links (...)
     - name
     - url

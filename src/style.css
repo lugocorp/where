@@ -18,12 +18,12 @@ body{
   margin:0;
 }
 @font-face{
-  src:url("./res/Rubik-MediumItalic.ttf");
+  src:url("./res/fonts/Rubik-MediumItalic.ttf");
   font-family:"Rubik";
   font-style:italic;
 }
 @font-face{
-  src:url("./res/Lato-Italic.ttf");
+  src:url("./res/fonts/Lato-Italic.ttf");
   font-family:"Lato";
   font-style:italic;
 }
@@ -50,6 +50,19 @@ body{
   border:solid 1px var(--white);
   margin:25px 0;
   height:0;
+}
+.main-page .content .scroll > div > div > a{
+  text-decoration:none;
+  cursor:pointer;
+}
+.main-page .content .video h1{
+  color:var(--purple);
+}
+.main-page .content .essay h1{
+  color:var(--orange);
+}
+.main-page .content .gallery h1{
+  color:var(--weirdBlue);
 }
 
 /* Header */
@@ -133,6 +146,19 @@ body{
 
 /*** Content pages ***/
 
+/* General */
+.back{
+  text-decoration:none;
+  position:absolute;
+  cursor:pointer;
+  z-index:1;
+  left:5px;
+  top:5px;
+}
+.back img{
+  width:300px;
+}
+
 /* Top section */
 .content-page .up{
   background-color:var(--neutral);
@@ -170,6 +196,7 @@ body{
 
 /* Author section */
 .content-page .author{
+  border-bottom:solid 15px var(--neutral);
   background-color:var(--orange);
   grid-template-columns:60% 40%;
   display:grid;
@@ -184,9 +211,19 @@ body{
   font-size:60px;
 }
 .content-page .author p{
+  color:var(--white);
   line-height:36px;
   font-size:30px;
   margin:15px 0;
+}
+.content-page .author a{
+  text-decoration:none;
+  color:var(--white);
+  line-height:18px;
+  font-size:15px;
+}
+.content-page .author a:hover{
+  text-decoration:underline;
 }
 .content-page .author img{
   border:5px solid #FFFFFF;
@@ -215,6 +252,7 @@ body{
   left:calc(50% - 150px);
   border-radius:30px;
   position:relative;
+  display:block;
   margin:25px 0;
   height:300px;
   width:300px;
@@ -239,11 +277,21 @@ body{
 .gallery-page .up h1{
   color:var(--weirdBlue);
 }
-.gallery-page .content div{
-  background-color:var(--regularGrey);
-  left:calc(50% - 200px);
+.gallery-page .content{
+  margin:150px 0;
+}
+.gallery-page .content p{
   position:relative;
-  margin:100px 0;
+  line-height:30px;
+  margin:25px 15%;
+  font-size:25px;
+}
+.gallery-page .content img{
+  left:calc(50% - 150px);
+  border-radius:30px;
+  position:relative;
+  display:block;
+  margin:25px 0;
   height:300px;
-  width:400px;
+  width:300px;
 }
