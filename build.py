@@ -72,7 +72,7 @@ for row in wb.active.values:
         names=", ".join(list(map(lambda x:x["name"],authors)))
         biographies="".join(list(map(lambda x:"<div class=\"author\"><div><h1>%s</h1><p>%s</p></div><div><img src=\"%s\"></div></div>"%(x["name"],x["desc"],x["img"]),authors)))
         output=open("build/%s.html"%link,"w")
-        output.write(template_video%(title,names,desc,biographies))
+        output.write(template_video%(video,title,names,desc,biographies))
         output.close()
     elif content_type=="essay":
         a=4
