@@ -64,6 +64,18 @@ body{
 .main-page .content .gallery h1{
   color:var(--weirdBlue);
 }
+@media only screen and (max-width:1000px){
+  .main-page{
+    overflow-y:visible;
+    height:auto;
+  }
+  .main-page .content{
+    grid-template-columns:100%;
+  }
+  .preview{
+    display:none;
+  }
+}
 
 /* Header */
 /* header height: 75px */
@@ -82,6 +94,14 @@ body{
 }
 .main-page .header img{
   height:40px;
+}
+@media only screen and (max-width:1000px){
+  .main-page .header{
+    height:auto;
+  }
+  .main-page .header > *{
+    display:block;
+  }
 }
 
 /* Preview */
@@ -128,6 +148,13 @@ body{
   font-size:19px;
   margin:5px 0;
 }
+@media only screen and (max-width:1000px){
+  .main-page .scroll{
+    overflow-y:visible;
+    text-align:left;
+    height:auto;
+  }
+}
 
 /* Tags */
 .main-page .tags{
@@ -148,6 +175,7 @@ body{
 
 /* General */
 .back{
+  background-color:var(--neutral);
   text-decoration:none;
   position:absolute;
   cursor:pointer;
@@ -157,6 +185,14 @@ body{
 }
 .back img{
   width:300px;
+}
+@media only screen and (max-width:1000px){
+  .back{
+    position:relative;
+    display:block;
+    left:0px;
+    top:0px;
+  }
 }
 
 /* Top section */
@@ -235,6 +271,11 @@ body{
   height:300px;
   width:300px;
 }
+@media only screen and (max-width:1000px){
+  .content-page .author{
+    grid-template-columns:100%;
+  }
+}
 
 /*** Essay ***/
 
@@ -266,6 +307,16 @@ body{
 }
 .video-page .up h1{
   color:var(--purple);
+}
+.video-page iframe{
+  height:315px;
+  width:560px;
+}
+@media only screen and (max-width:560px){
+  .video-page iframe{
+    width:100vw;
+    height:56vw;
+  }
 }
 
 /*** Gallery ***/

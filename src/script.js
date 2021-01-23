@@ -1,6 +1,18 @@
 
 $(document).ready(function(){
 
+  let w=0;
+
+  function handleResize(){
+    let w1=$(window).width();
+    if(w>=1000 && w1<1000){
+      $(".scroll > div").offset({top:$(".scroll").offset().top});
+      $(".scroll > div > div").css("opacity",1);
+    }
+    if(w<1000 && w1>=1000) handleScroll(0);
+    w=w1;
+  }
+
   /* Scrolling stuff */
   /*function automateScroll(){
     let component=null;
@@ -19,6 +31,7 @@ $(document).ready(function(){
     setTimeout(automateScroll,100);
   }*/
   function handleScroll(delta){
+    if(w<1000) return;
     let inner=$(".scroll > div").get(0).getBoundingClientRect();
     let rect=$(".scroll").get(0).getBoundingClientRect();
     let {left,top}=$(".scroll > div").offset();
@@ -45,9 +58,12 @@ $(document).ready(function(){
       above=(delta<0);
     });
   }
+  
+  $(window).resize(() => handleResize());
   document.addEventListener("wheel",function(evt){
     handleScroll(-12*evt.deltaY);
   });
   handleScroll(0);
+  handleResize();
 
 });

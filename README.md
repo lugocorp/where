@@ -9,7 +9,7 @@
     - [x] essay
     - [x] video
     - [x] gallery
-- [ ] Python script
+- [x] Python script
 
 #### January 18th deadline
 - [x] fancy scroll on front page
@@ -17,7 +17,7 @@
 
 #### January 19th deadline
 - [ ] about page
-- [ ] mobile support
+- [x] mobile support
 
 ## Excel sheet specs
 - title
