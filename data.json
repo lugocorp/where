@@ -1,0 +1,49 @@
+{
+  "posts":[
+    {
+      "type":"essay",
+      "name":"The Seatbelt Clicks",
+      "desc":"It’s a short piece about Solitude",
+      "thumbnail":"res/placeholder.png",
+      "authors":["Rafay Hasnain"],
+      "content":[
+        "Someone once told me that at the end of the day, you always go to sleep alone. She was in a terrible place and her words flew to me across a dark car, through clouds of smoke and shadows trying to be seen. I shrugged off the phrase’s implication because it just seemed like an empty lament, something spoken through broken teeth and from a wounded heart. But no, when you’re down that bad the truth flows from you as if God has finally turned, noticed you scurrying across the carpet, and allowed you some clarity, if only for pity’s sake.",
+        "We are truly alone. This is less terrifying the more you let the thought settle into a corner of your mind. We’re thrown into this world against our wishes, borne on the backs of strangers’ love, and it’s this initial dissonance that creates the loneliness. Our parents, bless them, recklessly dance with coincidence and roll the dice hoping their favorite numbers appear. They want you to be alive and then you are, never considering that they’re placing someone they don’t know in a world that wants to even less than they do."
+      ]
+    },
+    {
+      "type":"video",
+      "name":"Teehee I made a video",
+      "desc":"This is a test post for testing purposes",
+      "thumbnail":"res/placeholder.png",
+      "authors":["Alex Lugo"],
+      "content":"https://www.youtube.com/watch?v=5l9HC3sCj8s"
+    },
+    {
+      "type":"",
+      "name":"",
+      "desc":"",
+      "thumbnail":"",
+      "authors":[],
+      "content":[]
+    }
+  ],
+  "authors":[
+    {
+      "name":"Alex Lugo",
+      "desc":"Developer, entrepreneur and artist",
+      "img":"res/alawi.png",
+      "links":[
+        {
+          "name":"YouTube",
+          "url":"https://www.youtube.com/alexlugo"
+        }
+      ]
+    },
+    {
+      "name":"Rafay Hasnain",
+      "desc":"Just a dude",
+      "img":"res/alawi.png"
+    }
+  ]
+}
