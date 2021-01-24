@@ -95,6 +95,10 @@ body{
 .main-page .header img{
   height:40px;
 }
+.main-page .header a{
+  text-decoration:none;
+  color:var(--white);
+}
 @media only screen and (max-width:1000px){
   .main-page .header{
     height:auto;
@@ -345,4 +349,61 @@ body{
   margin:25px 0;
   height:300px;
   width:300px;
+}
+
+/*** About ***/
+.about-page .up h1{
+  color:var(--white);
+}
+.about-page .content img{
+  left:calc(50% - 250px);
+  position:relative;
+  display:block;
+  margin:25px 0;
+  height:500px;
+  width:500px;
+}
+.about-page .content h1{
+  font-family:"Rubik";
+  text-align:center;
+  font-size:100px;
+}
+.about-page .team{
+  grid-template-columns:33% 34% 33%;
+  display:grid;
+}
+.about-page .team > div{
+  position:relative;
+  text-align:center;
+  margin:50px 25px;
+}
+.about-page .team h2{
+  font-family:"Rubik";
+  line-height:44px;
+  font-size:36px;
+}
+.about-page .team p{
+  transform:translateX(-50%);
+  position:relative;
+  line-height:29px;
+  font-size:24px;
+  width:350px;
+  left:50%;
+}
+.about-page .team img{
+  transform:translateX(-50%);
+  position:relative;
+  height:474px;
+  width:350px;
+  left:50%;
+}
+@media only screen and (max-width:1200px){
+  .about-page .team{
+    grid-template-columns:50% 50%;
+  }
+}
+@media only screen and (max-width:800px){
+  .about-page .team{
+    grid-template-columns:100%;
+  }
 }

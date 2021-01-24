@@ -13,6 +13,7 @@ if len(sys.argv)<2:
 shutil.rmtree("build",ignore_errors=True)
 os.makedirs("build")
 shutil.copyfile("src/jquery-3.5.1.min.js","build/jquery-3.5.1.min.js")
+shutil.copyfile("src/about.html","build/about.html")
 shutil.copyfile("src/style.css","build/style.css")
 shutil.copyfile("src/script.js","build/script.js")
 shutil.copytree("res","build/res")
