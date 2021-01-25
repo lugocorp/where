@@ -26,6 +26,10 @@ def author_links(author):
     return ""
 def get_query(x):
     return ("%s %s %s"%(x["title"],x["desc"]," ".join(x["authors"].split(", ")))).lower()
+def get_font(x):
+    if "font" in x:
+        return " style='font-family:\"%s\"'"%x["font"]
+    return ""
 
 # Open template files
 file=open("src/video.html","r")
@@ -64,7 +68,7 @@ for post in data["posts"]:
         thumbnail=post["thumbnail"]
         for line in post["content"]:
             if is_filename(line): content.append("<img src=\"%s\"/>"%line)
-            else: content.append("<p>%s</p>"%line)
+            else: content.append("<p%s>%s</p>"%(get_font(post),line))
         content="".join(content)
         authors=process_authors(data["authors"],post["authors"])
         names=", ".join(post["authors"])
@@ -77,7 +81,7 @@ for post in data["posts"]:
         thumbnail=post["thumbnail"]
         for line in post["content"]:
             if is_filename(line): content.append("<img src=\"%s\"/>"%line)
-            else: content.append("<p>%s</p>"%line)
+            else: content.append("<p%s>%s</p>"%(get_font(post),line))
         content="".join(content)
         authors=process_authors(data["authors"],post["authors"])
         names=", ".join(post["authors"])

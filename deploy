@@ -1,0 +1,10 @@
+#!/bin/bash
+python build.py
+echo "wherethemag.com" > build/CNAME
+pushd build > /dev/null
+git init
+git remote add origin https://github.com/lugocorp/where.git
+git add .
+git commit -m "Update on $(date)"
+git push origin master:gh-pages
+popd > /dev/null

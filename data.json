@@ -1,20 +1,6 @@
 {
   "posts":[
     {
-      "type":"gallery",
-      "name":"Empty Pages",
-      "desc":"My project is coloring pages that are inspired by some of my favorite songs. Print out the images, play the music, and just color.",
-      "thumbnail":"res/empty-pages/thumbnail.jpeg",
-      "authors":["Lucky"],
-      "content":[
-        "<div style=\"text-align:center\"><iframe src=\"https://open.spotify.com/embed/playlist/1kt7kE0MpDJEsLLXE0Rso6\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe></div>",
-        "res/empty-pages/post1.jpeg",
-        "res/empty-pages/post2.jpeg",
-        "res/empty-pages/post3.jpeg",
-        "res/empty-pages/thumbnail.jpeg"
-      ]
-    },
-    {
       "type":"essay",
       "name":"Alesia: Chapter 1",
       "desc":"Caught in between a rock and a hard place, follow a father and daughter duo as they try to navigate the fog of war alive and with their sanity intact. A story dedicated to the victims of war whose stories went unheard...and ignored.",
@@ -65,12 +51,41 @@
       ]
     },
     {
-      "type":"",
-      "name":"",
-      "desc":"",
-      "thumbnail":"",
-      "authors":[],
-      "content":[]
+      "type":"gallery",
+      "name":"Empty Pages",
+      "desc":"My project is coloring pages that are inspired by some of my favorite songs. Print out the images, play the music, and just color.",
+      "thumbnail":"res/empty-pages/thumbnail.jpeg",
+      "authors":["Lucky"],
+      "content":[
+        "<div style=\"text-align:center\"><iframe src=\"https://open.spotify.com/embed/playlist/1kt7kE0MpDJEsLLXE0Rso6\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe></div>",
+        "res/empty-pages/post1.jpeg",
+        "res/empty-pages/post2.jpeg",
+        "res/empty-pages/post3.jpeg",
+        "res/empty-pages/thumbnail.jpeg"
+      ]
+    },
+    {
+      "type":"essay",
+      "name":"The Seatbelt Clicks",
+      "desc":"We’re wired as social creatures. Is that instinct even compatible with reality? It’s hard to make your way through life when, somewhere in the background of every day, you feel that something’s off.",
+      "thumbnail":"res/seatbelt.jpg",
+      "authors":["Rafay Hasnain"],
+      "font":"Spectral",
+      "content":[
+        "&emsp;&emsp;Someone once told me that at the end of the day, you always go to sleep alone. She was in a terrible place and her words flew to me across a dark car, through clouds of smoke and shadows trying to be seen. I shrugged off the phrase’s implication because it just seemed like an empty lament, something spoken through broken teeth and from a wounded heart. But no, when you’re down that bad the truth flows from you as if God has finally turned, noticed you scurrying across the carpet, and allowed you some clarity, if only for pity’s sake.",
+        "&emsp;&emsp;We are truly alone. This is less terrifying the more you let the thought settle into a corner of your mind. We’re thrown into this world against our wishes, borne on the backs of strangers’ love, and it’s this initial dissonance that creates the loneliness. Our parents, bless them, recklessly dance with coincidence and roll the dice hoping their favorite numbers appear. They want you to be alive and then you are, never considering that they’re placing someone they don’t know in a world that wants to even less than they do.",
+        "&emsp;&emsp;We hurry to and from each new moment, each sudden relationship, sometimes devastated and occasionally liberated. All the while the future is being shaped behind our backs, by a soul trying to build an outpost in an indifferent universe. Everyone gets swept up into the patterns of life laid out ages ago. We crave meaning, and reject it when it arrives in unfamiliar forms. People are rushed and hushed into churches and masjids, some scour the internet for solace and knowledge, others build their own reality and seal themselves inside of it. All are given comfort, handed beautiful lies.",
+        "&emsp;&emsp;“The Creator knows you, loves you.”",
+        "&emsp;&emsp;“We are stardust that can’t figure itself out, but will one day.”",
+        "&emsp;&emsp;“Look at this meme.”",
+        "&emsp;&emsp;Our minds are allowed to wander through life, arms outstretched into darkness.",
+        "&emsp;&emsp;I look back at how I struggled through my childhood, how I tripped into adulthood. It feels unsurprising that our society is drowning in apathy and depression. We’re locked in a death spiral, the lights and alarms on the control panel are whirling and caroling like a suburban street in December. Nobody recognizable sits in the pilot’s seat. Cities and towns are becoming brave, gleaming wonders, ruins waiting to happen. We walk through them dazed. We’re vaguely disappointed, angry even, about something we can’t identify, something we heard once and then forgot.",
+        "&emsp;&emsp;We’ve reached the plateau every single human being has been clawing towards forever, and found nothing here but ourselves and what we’ve done to the planet, to the home we were given so carelessly.",
+        "&emsp;&emsp;Our lives often feel more difficult than they need to be. Somewhere along the way, we’re encouraged to sort ourselves into the binary of extroverts and introverts. Outspoken or withdrawn, most have experienced the bewildering sensation of seeking out social contact only to inwardly shrink back from it, numbed and confused. After school and work, after meeting our friends, we decompress in our cars. We’re war-weary veterans who can’t understand what’s traumatized us. The problem isn’t other people or ourselves. It’s only that you can’t ignore and reverse a truth which hangs in the air like offensive perfume.",
+        "&emsp;&emsp;We are alone. If there are millions of extraterrestrial civilizations out there, they are alone. If God is sadly peering at us from a heaven full of angels, He and they are alone too.",
+        "&emsp;&emsp;It’s sick and twisted that at the same time everything, everyone is connected, bound together by a universal consciousness that reveals itself on occasion, like a WiFi signal faltering. We’re ultimately by ourselves yet we share hopes and dreams, thoughts and feelings which ricochet through our communities to find open minds. Our collective family tree is ancient and huge, its branches sway in unison unaware of what they belong to. Droves of men, women, and children have felt this, this insane friction between union and solitude, and been so battered by its effects that they’ve killed themselves. My heart and soul go to every one of them. They are my family, and we slowly revolve through space and time, alone yet similar all the while.",
+        "&emsp;&emsp;My ego, somehow, prevents me from following them. This world has seduced me, I’m hopelessly curious about it. However my life ends, I don’t want to be the one to start the engine, tie the noose, or splatter the ceiling. There are so many people and things who would gladly do it for me. So yes, that beautiful, languishing person was right. She saw something I couldn’t. Everyone goes to sleep alone. Excuse me while I turn the pillow over, despite my best efforts it’s too warm."
+      ]
     }
   ],
   "authors":[
@@ -84,8 +99,11 @@
     },
     {
       "name":"Rafay Hasnain",
-      "desc":"Just a dude",
-      "img":"res/alawi.png"
+      "desc":"Photographer/writer/dweeb/Barca fan",
+      "img":"res/people/rafay-hasnain.jpeg",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/rafayhasnain/"}
+      ]
     },
     {
       "name":"Ahmad Dajani",
