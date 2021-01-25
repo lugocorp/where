@@ -86,6 +86,21 @@
         "&emsp;&emsp;It’s sick and twisted that at the same time everything, everyone is connected, bound together by a universal consciousness that reveals itself on occasion, like a WiFi signal faltering. We’re ultimately by ourselves yet we share hopes and dreams, thoughts and feelings which ricochet through our communities to find open minds. Our collective family tree is ancient and huge, its branches sway in unison unaware of what they belong to. Droves of men, women, and children have felt this, this insane friction between union and solitude, and been so battered by its effects that they’ve killed themselves. My heart and soul go to every one of them. They are my family, and we slowly revolve through space and time, alone yet similar all the while.",
         "&emsp;&emsp;My ego, somehow, prevents me from following them. This world has seduced me, I’m hopelessly curious about it. However my life ends, I don’t want to be the one to start the engine, tie the noose, or splatter the ceiling. There are so many people and things who would gladly do it for me. So yes, that beautiful, languishing person was right. She saw something I couldn’t. Everyone goes to sleep alone. Excuse me while I turn the pillow over, despite my best efforts it’s too warm."
       ]
+    },
+    {
+      "type":"essay",
+      "name":"",
+      "desc":"This article explores the future in a post-COVID world and its implications. It dives into the possibility of PTSD for a whole generation of people who had their lives changed. While we explore where we go next in life, it’s hard to ignore what’s going on around us right now, and we should be prepared for what’s next to come.",
+      "thumbnail":"res/covid-ptsd.png",
+      "authors":["Sibga"],
+      "content":[
+        "Hot take for this year, COVID is not done ruining our lives. It did some significant damage the past couple of months, but COVID is long but over. Yeah the vaccine is being distributed and the incidence itself may decrease to nothing, but we can’t forget the mental trauma that so many of us have suffered. Another way to think of it, COVID is like the guy who rented out a room for a year and left a really bad smell that never really goes away.",
+        "Most people who go to war at least have a preconceived idea of the risks they take, one of them being PTSD. No one really expects it will happen to them, but it does happen more than we think. The amount of trauma that someone goes through in war is different from the trauma of living through a pandemic, but the end results are gonna be the same. Another generation of traumatized kids who have no choice but to remember the one (and probably more) year that they never want to remember again. I’m not saying everyone in the world is going to have PTSD, I mean not everyone even believes COVID is real. There are tons of people who were lucky enough to never have to face it head-on and can lead their lives blissfully ignorant. On the other hand, there are millions of people who aren’t so lucky.",
+        "I had a front seat to see those who weren’t lucky. In my first year working in the Emergency Department (ED), I rarely witnessed any procedures; I’ve seen laceration repairs, I&D’s, and some arterial or central line placements. Since the pandemic started, I have seen so many patients get intubated, I could probably do it myself. I’ve also watched countless patients rushed into the ED because they’re struggling to breathe. I can’t imagine how that felt or how scary it was to think that this may be the end. When and if they survived, it’s probably going to be hard to forget every detail of that day.",
+        "On the other side, what about the doctors and nurses who have had to do this to so many people, only to have them not make it? And then have to tell their loved ones that they're dead, oh also by the way you can’t come in to see them one last time? That sucks. You hear a lot of screaming in the ED, most of which you can forget, but it’s hard to forget the screams of a mother after telling her that her son is dead. When COVID PTSD is something we acknowledge is happening, that is one thing I won’t forget. There were so many lives lost, so many lives changed. I think the new generation has a pretty good handle on things though; you could probably find thousands of memes making fun of COVID and how much it has messed up our lives. With the pandemic, we all had no choice but to take a deep dive into the COVID crockpot, and using these memes are probably a way for us to cope with everything we’ve lost. I especially like the one with the fading picture of Elmo with an army hat one. Aside from the memes,",
+        "Nevertheless, all the jokes have some truth behind them. I don’t think any of us will be able to forget this year, especially those who had to turn their lives upside down in order to survive. Well if we were a functioning society, the next step would be to train counselors and therapists for this specifically. I don’t doubt that there will be hundreds of people who will need some sort of counseling and we should be prepared for that. But how do you comfort someone who had to see patients be fine one minute and then be dead the next? How do you tell the person who couldn’t say one last goodbye to their parents or have a proper funeral that it’s time to move on? How can a counselor sit and talk to a doctor and a nurse and understand the weight of everything they had to do?",
+        "At the end of the day, we have to face what’s coming. I’m literally sick of hearing about COVID. If there was a way to forever delete that word from everyone’s head, I would sell my soul to do it. But the reality is that it’s something we have to acknowledge happened and work to prevent it again. People's lives have been flipped upside down and we’re just going to keep on flipping around and around. Hey at least no matter where you are, at least you’ll know you’re not the only one messed up from all this."
+      ]
     }
   ],
   "authors":[
@@ -120,6 +135,14 @@
       "img":"res/people/lucky.jpeg",
       "links":[
         {"name":"Instagram","url":"https://www.instagram.com/forchnit/"}
+      ]
+    },
+    {
+      "name":"Sibga",
+      "desc":"Seems very cool and nice. 10/10.Favorite greek letter: Σ",
+      "img":"res/people/sibga.png",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/sibby820/"}
       ]
     }
   ]

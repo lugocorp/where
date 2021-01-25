@@ -133,6 +133,7 @@ body{
 }
 .main-page .preview{
   transform:translate(-50%,-50%);
+  border-radius:30px;
   position:absolute;
   max-height:80vh;
   max-width:80%;
@@ -357,8 +358,13 @@ body{
   height:300px;
   width:300px;
 }
+.essay-page .up img{
+  border:5px solid var(--orange);
+}
 @media only screen and (max-width:1000px){
   .essay-page .content p{
+    line-height:20px;
+    font-size:16px;
     margin:25px;
   }
 }
@@ -371,6 +377,9 @@ body{
 }
 .video-page .up h1{
   color:var(--purple);
+}
+.video-page .up img{
+  border:5px solid var(--purple);
 }
 .video-page iframe{
   height:315px;
@@ -392,6 +401,9 @@ body{
 .gallery-page .up h1{
   color:var(--weirdBlue);
 }
+.gallery-page .up img{
+  border:5px solid var(--weirdBlue);
+}
 .gallery-page .content{
   margin:150px 0;
 }
@@ -412,6 +424,8 @@ body{
 }
 @media only screen and (max-width:1000px){
   .gallery-page .content p{
+    line-height:20px;
+    font-size:16px;
     margin:25px;
   }
 }

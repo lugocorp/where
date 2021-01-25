@@ -30,6 +30,11 @@ $(document).ready(function(){
     }
     let above=true;
     let possible=true;
+    let colors={
+      "gallery":"var(--weirdBlue)",
+      "video":"var(--purple)",
+      "essay":"var(--orange)",
+    }
     $(".scroll > div > div").each(function(){
       let {top}=$(this).offset();
       let delta=top-rect.y;
@@ -38,8 +43,10 @@ $(document).ready(function(){
         opacity=1;
         possible=false;
         let thumb=$(this).attr("thumbnail");
-        if(thumb.length) $(".preview").attr("src",thumb);
-        else $(".preview").attr("src","res/where/white.png");
+        if(thumb.length) $(".preview").attr("src",thumb)
+          .css("border",`solid 5px ${colors[$(this).attr("class")]}`);
+        else $(".preview").attr("src","res/where/white.png")
+          .css("border","none");
       }
       $(this).css("opacity",opacity);
       above=(delta<0);
