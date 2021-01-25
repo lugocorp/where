@@ -10,37 +10,24 @@ $(document).ready(function(){
       $(".scroll > div > div").css("opacity",1);
     }
     if(w<1000 && w1>=1000) handleScroll(0);
+    if(w>=1000 && w1<1000) handleScroll();
     w=w1;
   }
 
   /* Scrolling stuff */
-  /*function automateScroll(){
-    let component=null;
-    let dist=1000000;
-    let {top}=$(".scroll").offset();
-    $(".scroll > div > div").each(function(){
-      let d=Math.abs(top-$(this).offset().top);
-      if(d<dist){
-        component=this;
-        dist=d;
-      }
-    });
-    let delta=dist<10?dist:10;
-    if($(component).offset().top>top) delta*=-1;
-    handleScroll(delta);
-    setTimeout(automateScroll,100);
-  }*/
   function handleScroll(delta){
-    if(w<1000) return;
-    let inner=$(".scroll > div").get(0).getBoundingClientRect();
+    if((delta==undefined && w>=1000) || (delta!=undefined && w<1000)) return;
     let rect=$(".scroll").get(0).getBoundingClientRect();
-    let {left,top}=$(".scroll > div").offset();
-    let orig_top=top;
-    top+=delta;
-    if(top>rect.y) top=rect.y;
-    let last_top=$(".scroll > div > div").last().offset().top-orig_top;
-    if(top+last_top<rect.top) top=rect.top-last_top;
-    $(".scroll > div").offset({top,left});
+    if(delta!=undefined){
+      let inner=$(".scroll > div").get(0).getBoundingClientRect();
+      let {left,top}=$(".scroll > div").offset();
+      let orig_top=top;
+      top+=delta;
+      if(top>rect.y) top=rect.y;
+      let last_top=$(".scroll > div > div").last().offset().top-orig_top;
+      if(top+last_top<rect.top) top=rect.top-last_top;
+      $(".scroll > div").offset({top,left});
+    }
     let above=true;
     let possible=true;
     $(".scroll > div > div").each(function(){
@@ -58,12 +45,27 @@ $(document).ready(function(){
       above=(delta<0);
     });
   }
-  
+
+  // Set up event handlers
   $(window).resize(() => handleResize());
   document.addEventListener("wheel",function(evt){
     handleScroll(-12*evt.deltaY);
   });
-  handleScroll(0);
+  $(".scroll").get(0).addEventListener("scroll",function(evt){
+    handleScroll();
+  });
   handleResize();
+  if(w>=1000) handleScroll(0);
+  else handleScroll();
+
+  // Search bar stuff
+  $(".search-label").click(function(){
+    $(".search-label").remove();
+    $(".main-page .header").append($("<input class=\"search-label\" type=\"text\"/>")
+      .on("input",function(e){
+        console.log("Changed");
+      })
+    );
+  });
 
 });
