@@ -1,23 +1,68 @@
 {
   "posts":[
     {
-      "type":"essay",
-      "name":"The Seatbelt Clicks",
-      "desc":"It’s a short piece about Solitude",
-      "thumbnail":"res/placeholder.png",
-      "authors":["Rafay Hasnain"],
+      "type":"gallery",
+      "name":"Empty Pages",
+      "desc":"My project is coloring pages that are inspired by some of my favorite songs. Print out the images, play the music, and just color.",
+      "thumbnail":"res/empty-pages/thumbnail.jpeg",
+      "authors":["Lucky"],
       "content":[
-        "Someone once told me that at the end of the day, you always go to sleep alone. She was in a terrible place and her words flew to me across a dark car, through clouds of smoke and shadows trying to be seen. I shrugged off the phrase’s implication because it just seemed like an empty lament, something spoken through broken teeth and from a wounded heart. But no, when you’re down that bad the truth flows from you as if God has finally turned, noticed you scurrying across the carpet, and allowed you some clarity, if only for pity’s sake.",
-        "We are truly alone. This is less terrifying the more you let the thought settle into a corner of your mind. We’re thrown into this world against our wishes, borne on the backs of strangers’ love, and it’s this initial dissonance that creates the loneliness. Our parents, bless them, recklessly dance with coincidence and roll the dice hoping their favorite numbers appear. They want you to be alive and then you are, never considering that they’re placing someone they don’t know in a world that wants to even less than they do."
+        "<div style=\"text-align:center\"><iframe src=\"https://open.spotify.com/embed/playlist/1kt7kE0MpDJEsLLXE0Rso6\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe></div>",
+        "res/empty-pages/post1.jpeg",
+        "res/empty-pages/post2.jpeg",
+        "res/empty-pages/post3.jpeg",
+        "res/empty-pages/thumbnail.jpeg"
       ]
     },
     {
-      "type":"video",
-      "name":"Teehee I made a video",
-      "desc":"This is a test post for testing purposes",
-      "thumbnail":"res/placeholder.png",
-      "authors":["Alex Lugo"],
-      "content":"https://www.youtube.com/watch?v=5l9HC3sCj8s"
+      "type":"essay",
+      "name":"Alesia: Chapter 1",
+      "desc":"Caught in between a rock and a hard place, follow a father and daughter duo as they try to navigate the fog of war alive and with their sanity intact. A story dedicated to the victims of war whose stories went unheard...and ignored.",
+      "thumbnail":"res/alesia.png",
+      "authors":["Ahmad Dajani"],
+      "content":[
+        "Alpius: Family takes always priority in your life (Name meaning)",
+        "Tallis: Woodland",
+        "As the sun sets beyond the mountainous horizon, I’m reminded that it has been two days since we were forced to let go of those closest to us. The smoke from the dozens of campfires surrounding our make-shift fortress act as a beacon of hope for us who were forced to remain in this settlement. Could our wives and daughters have managed another day out there, exposed to the elements? Did our parents have anything to eat? The more we think about them, the more we worry. Their fires allows us to have hope that this battle and the war in its entirety will come to an end soon, and with our families reunited.",
+        "We try our best to celebrate the low density, white smoke clouds that hover over the tree tops when we are placed on the lookout towers. However, the lack of preparation our loved ones have had to survive these conditions wears away at our already aching hearts.",
+        "“There will not be a single camp out there in a week’s time. They’re burning everything but dry wood, and lord knows without any bows or blades our huntresses won’t be able to feed themselves, let alone our babies,” aches my younger brother, Alpius, who is seated next to me on a log placed by a fire pit near the militia’s quarters. As each of us sits around the fire silently, his words bounce off the ears of the others with no reaction. This has been the only thing that the men have been able to talk about in these past two days, and they’re exhausted. It has sunk in. At this point, they agree.",
+        "“And I don’t even want to think about what those fucks over there will try on them.” Alpius points towards the horizon to direct his focus on the wooden walls that have been put up by the Empire troops in the distance.",
+        "Alpius was forced to dismiss his mother and wife. His only son, Tallis, along with all the other boys old enough to hold a sword, was forced to remain within the walls and serve the troops in whatever ways  that were required of him. The boy is too young to fight and has been tasked with the duties of a water carrier. Alpius, a proud father, is determined to keep his son’s spirits high. After seeing how distraught Tallis was with the separation from his family, Alpius felt that his boy didn’t need any more anguish added by projecting his stress. His method has involved increasing the moral support in their interactions, and consistently reminding his boy that people are relying on him. This comes with less interaction throughout the day as his son carries on with his duties. His boy is worthy of praise; he’s willing to take orders with the level of discipline that far exceeds the pathetic militia that has been formed out of the civilians of this town.",
+        "Just as Alpius finishes his sentence, his son comes running over with the rations that he’s been spared by the company’s food master. Rations are given twice a day, with the most generous portions being bestowed upon the highest ranks. The drafted soldiers are given “enough” to function. It’s not much, it merely calms our intense hunger that would otherwise keep us up at night. The young boys within have not managed to escape the extreme hunger that all civilians suffered prior to the purging of loved ones. Fathers are often found to be sharing their meals with their sons, but orphans are left to suffer.",
+        "“Father, I’ve brought you something!”",
+        "He reveals from under his tunic a slab of meat. The men are stirred up around the campfire. Alpius’s eyes glow from the reflections of the fire before us, but they pierce with the heat from the fire within him.",
+        "“Where did you get this, Tallis?” Alpius barks. Ever since the beginning of the siege, all food became the property of the Rebel Alliance. Meat, due to being a great source of energy, having good taste and a shorter period of edibility, has become an ultimate treasure made available only to the highest officers. If his son was ever caught stealing any food, let alone meat, both Alpius and Tallis would be put to death along with any man who ate of the stolen food.",
+        "Within seconds, the glow of pride within Tallis’ eyes darkened into fear and anxiety. His words must be chosen carefully, as every man around the campfire is on edge. “I made a promise not to tell!”",
+        "The men around the fire laugh. I can’t help but feel scared for the boy. He’s my nephew, and as honest a child as he’s often proven to be, he’s not smart.",
+        "Alpius, restraining himself from screaming and raising attention to all the rest of the men around the barracks, slows his words as he straightens his posture, and lowers his vocals to the sound of a whisper. The result is the most threatening sound a father could make. Not the sound of rage, but of unimaginable discipline promised to come.",
+        "“Come to me and tell me what you’ve done.”",
+        "Tallis walked to his father with heavy steps. It’s been a long day of running for him.",
+        "The look Alpius gives to those around the fire declares that the conversation between him and his son does not include them. This does not deter them from maintaining focus on the issue at hand; how to get their hands on the meat. It is almost more dangerous to have this meat in front of the men than in front of the rebel general himself. There is no place within the fort that we freely have access to where we’d be able to cook in peace without the aroma of cooking meat lingering, and many of the men are more than capable of losing their sanity to tame their hunger. This being based off of conversations that I’ve overheard that regarded what we’ll have to do to make it through the siege if we run out of food and what we’ll have to do to each other.",
+        "The important thing right now is that nobody else around the barracks finds out what Tallis has brought, and for these men to be kept quiet. We are not trained and disciplined soldiers like those who have been sent to destroy our fortress, we are merely villagers who have been forced into this horrid situation where we have become as low as dogs who know but two commands: sit and defend.",
+        "My brother and his son conclude their quieted conversation with Alpius affectionately messing Tallis’ hair into a fuzzy mess.",
+        "“You’re a good son. Your mother and I are proud of you.”",
+        "The mere mentioning of his mother turns Tallis’ eyes to the ground as he becomes lost in thought.",
+        "Alpius turns his attention to the men as he grabs the meat from Tallis.",
+        "“This is with you men on the one condition that you never mention where you got it. My name, nor my son’s, nor my brother’s are to ever leave your mouths. Understood?”",
+        "The men rejoice and reply with whatever stupid reassurances they could think of to make us believe them. Alpius throws the meat at one of the men across from the fire and the others jump on him as a bunch of starved mutts fighting for their share of the kill.",
+        "Alpius nudges me to get up as he begins to do so himself.",
+        "“We were never here.” He reminds the men as we leave, and they reply with mixed confirmations of “we don’t even know who you are” and “thanks.”",
+        "They’re not the smartest bunch either but if we avoid them and maybe get around a campfire with someone of rank, then we’ll have an alibi against any of their statements against us, should they try to rat on us. I begin to think these thoughts out loud so that I could try to understand why my brother threw away the only chance at a full stomach we may have anytime soon. It surely must be so that we avoid trouble.",
+        "Alpius hears my logic through and agrees to my idea of reseating. However, he stops midway through our walk as we find ourselves relatively alone.",
+        "“Have you ever heard of a ‘long pig’, brother?” he asks me.",
+        "My brother has traveled across many lands and seas as a renounced member of the Empire’s army. He has been exposed to far more than I have, for I have spent my whole life here following the age-old family tradition of hunting and providing meats for our sister family who runs merchant stands across various towns in the countryside. Surely, he must know that I’ve never heard of such a phrase.",
+        "“When I was in the military, we would sometimes need to starve out the castle or fortress we were attacking before coming in and cleaning up the mess. It’s possible that they’ll be doing something like that against us.”",
+        "I told him that it seemed rather obvious at this point, but he disregarded my interruption to continue with his topic.",
+        "“Well, most weaker settlements or less prepared forts would give up rather quickly to a starvation approach, while it’d take very long to take down a large castle. This is comparing a few weeks to many months of siege warfare.”",
+        "I ask him why he brings this up and he tells me to be patient. He checks his surroundings once more and tells his son not to listen. Tallis busies himself with some rocks that he finds on the ground.",
+        "“When we were conquering the islands, there was this one fort that was small. Not much different than ours here. Their defenses were well built to keep enemies out and their warriors were filled with a burning passion that intimidated even our most experienced men. This isn’t the point though; the point is how long they maintained that fury. It took us 13 months to finally break through their walls and to find out how they managed to hold out for so long, both in defense and food storage.”",
+        "My brother’s eyes are distant, gazing through me. They seem to be looking to a past known only to those who’ve experienced the darkest traumas and survived to carry their burdens. This battle has returned to him many suppressed emotions that were once under his control. They at least seemed to be.",
+        "“Brother, we stormed in to find starved women and children held like cattle in their own home. It smelled of pork in the air. But there was no pork. Only people. They ate their kin, brother. None of our men ate a gram of meat that night. We couldn’t. And when I asked one of their imprisoned soldiers about their sick practice, he called his own family ‘long pig,’ stating that their role in the battle was to sustain the troops.”",
+        "As off-putting as this recollection of events is, I’m afraid to connect the dots that he is trying to show me.",
+        "The slab of meat his son presented to us, they weren’t of any cattle.",
+        "“Brother, that meat was long pig. Surely, it was one of our fallen comrades.”",
+        "So why the hell was it in the hands of my nephew?"
+      ]
     },
     {
       "type":"",
@@ -34,16 +79,30 @@
       "desc":"Developer, entrepreneur and artist",
       "img":"res/alawi.png",
       "links":[
-        {
-          "name":"YouTube",
-          "url":"https://www.youtube.com/alexlugo"
-        }
+        {"name":"YouTube","url":"https://www.youtube.com/alexlugo"}
       ]
     },
     {
       "name":"Rafay Hasnain",
       "desc":"Just a dude",
       "img":"res/alawi.png"
+    },
+    {
+      "name":"Ahmad Dajani",
+      "desc":"Just your everyday Palestinian-American who enjoys reading, writing, and the concept of freedom.",
+      "img":"res/people/ahmad-dajani.jpeg",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/almond_dasani/"},
+        {"name":"LinkedIn","url":"https://www.linkedin.com/in/ahmad-dajani-96b941151/"}
+      ]
+    },
+    {
+      "name":"Lucky",
+      "desc":"I’m Lucky. I’m an idiot.",
+      "img":"res/people/lucky.jpeg",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/forchnit/"}
+      ]
     }
   ]
 }

@@ -24,6 +24,8 @@ def author_links(author):
     if "links" in author and len(author["links"]):
         return " | ".join(list(map(lambda x:"<a href=\"%s\">%s</a>"%(x["url"],x["name"]),author["links"])))
     return ""
+def get_query(x):
+    return ("%s %s %s"%(x["title"],x["desc"]," ".join(x["authors"].split(", ")))).lower()
 
 # Open template files
 file=open("src/video.html","r")
@@ -92,7 +94,7 @@ for post in data["posts"]:
 file=open("src/index.html","r")
 template=file.read()
 file.close()
-code="<hr>".join(list(map(lambda x:"<div thumbnail=\"%s\" class=\"%s\"><a href=\"%s.html\"><h1>%s</h1><h2>%s</h2><p>%s</p></a></div>"%(x["thumbnail"] or "",x["type"],x["link"],x["title"],x["authors"],x["desc"]),projects)))
+code="".join(list(map(lambda x:"<div query=\"%s\" thumbnail=\"%s\" class=\"%s\"><a href=\"%s.html\"><h1>%s</h1><h2>%s</h2><p>%s</p></a><hr></div>"%(get_query(x),x["thumbnail"] or "",x["type"],x["link"],x["title"],x["authors"],x["desc"]),projects)))
 file=open("build/index.html","w")
 file.write(template%code)
 file.close()

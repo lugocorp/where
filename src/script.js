@@ -61,9 +61,16 @@ $(document).ready(function(){
   // Search bar stuff
   $(".search-label").click(function(){
     $(".search-label").remove();
-    $(".main-page .header").append($("<input class=\"search-label\" type=\"text\"/>")
+    $(".main-page .header").append($("<input class=\"search-label\" type=\"text\" placeholder=\"Search\"/>")
       .on("input",function(e){
-        console.log("Changed");
+        let query=e.target.value;
+        $(".scroll > div > div").each(function(){
+          let q=$(this).attr("query");
+          let show=(query.length==0 || q.indexOf(query)>=0);
+          if(show) $(this).show();
+          else $(this).hide();
+        });
+        handleScroll();
       })
     );
   });

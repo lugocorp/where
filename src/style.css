@@ -102,6 +102,15 @@ body{
   text-decoration:none;
   color:var(--white);
 }
+.main-page .header input[type=text].search-label{
+  border:none;
+  border-bottom:solid 2px var(--white);
+  background-color:var(--neutral);
+  color:var(--white);
+  line-height:36px;
+  max-width:250px;
+  font-size:24px;
+}
 @media only screen and (max-width:1000px){
   .main-page .header{
     line-height:36px;
@@ -393,7 +402,7 @@ body{
   border-radius:30px;
   position:relative;
   display:block;
-  margin:25px 0;
+  margin:75px 0;
   height:300px;
   width:300px;
 }
