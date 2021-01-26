@@ -215,9 +215,8 @@ body{
   text-decoration:none;
   position:absolute;
   cursor:pointer;
+  padding:25px;
   z-index:1;
-  left:5px;
-  top:5px;
 }
 .back img{
   width:300px;
@@ -226,8 +225,6 @@ body{
   .back{
     position:relative;
     display:block;
-    left:0px;
-    top:0px;
   }
 }
 

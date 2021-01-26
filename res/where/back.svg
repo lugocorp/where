@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="72"
+   viewBox="0 0 132.29166 19.050001"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="back.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1859"
+     inkscape:window-height="1056"
+     id="namedview913"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.8222573"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2">
+    <rect
+       x="20.410713"
+       y="153.45833"
+       width="65.76786"
+       height="57.452381"
+       id="rect844" />
+    <rect
+       x="19.654762"
+       y="102.80952"
+       width="143.63097"
+       height="63.5"
+       id="rect835" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-59.32088,-162.39713)">
+    <text
+       xml:space="preserve"
+       id="text833"
+       style="font-style:italic;font-weight:bold;font-size:52.9167px;line-height:1.25;font-family:Staatliches;-inkscape-font-specification:'Staatliches Bold Italic';letter-spacing:-1.32292px;white-space:pre;shape-inside:url(#rect835);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       transform="translate(37.797618,31.555057)"><tspan
+         x="19.654297"
+         y="149.62747"><tspan
+           style="font-size:17.6389px">&lt;&lt; </tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.4583px;font-family:Rubik;-inkscape-font-specification:'Rubik Bold Italic';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"> where?!</tspan></tspan></text>
+  </g>
+</svg>
