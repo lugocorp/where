@@ -197,14 +197,28 @@ body{
   margin-top:25px;
 }
 .main-page .tags span{
+  background-color:#787878;
   display:inline-block;
   font-family:"Rubik";
   border-radius:10px;
+  white-space:nowrap;
   color:var(--white);
   text-align:center;
   font-size:15px;
-  height:20px;
-  width:90px;
+  padding:0 10px;
+  margin: 0 5px;
+}
+.tags .tag-type.tag-essay{
+  background-color:var(--orange);
+}
+.tags .tag-type.tag-gallery{
+  background-color:var(--weirdBlue);
+}
+.tags .tag-type.tag-video{
+  background-color:var(--purple);
+}
+.tags span.tag-date{
+  background-color:var(--darkPurple);
 }
 
 /*** Content pages ***/

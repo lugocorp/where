@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   sodipodi:docname="process-map.svg"
+   inkscape:export-filename="/home/alexander/Desktop/folder/backburner/where/processs-map.png"
+   inkscape:export-xdpi="55.674747"
+   inkscape:export-ydpi="55.674747">
+  <defs
+     id="defs2">
+    <rect
+       x="202.12416"
+       y="-47.357179"
+       width="119.30791"
+       height="22.313279"
+       id="rect888" />
+    <rect
+       x="268.8177"
+       y="-11.724084"
+       width="62.847918"
+       height="21.598046"
+       id="rect863" />
+    <rect
+       x="-126.97172"
+       y="-88.435205"
+       width="167.37932"
+       height="44.866159"
+       id="rect835" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.54"
+     inkscape:cx="108.24446"
+     inkscape:cy="402.1774"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1859"
+     inkscape:window-height="1056"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1053"
+       width="210"
+       height="297"
+       x="0"
+       y="3.5527137e-15" />
+    <text
+       xml:space="preserve"
+       id="text833"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';white-space:pre;shape-inside:url(#rect835);"
+       transform="translate(147.20329,231.73618)"><tspan
+         x="-126.97266"
+         y="-79.071807"><tspan>local repository</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="33.376419"
+       y="272.64279"
+       id="text841"><tspan
+         sodipodi:role="line"
+         id="tspan839"
+         x="33.376419"
+         y="272.64279"
+         style="stroke-width:0.264583">src folder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="135.36044"
+       y="224.68652"
+       id="text845"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="135.36044"
+         y="224.68652"
+         style="stroke-width:0.264583">res folder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="33.449799"
+       y="176.49023"
+       id="text849"><tspan
+         sodipodi:role="line"
+         id="tspan847"
+         x="33.449799"
+         y="176.49023"
+         style="stroke-width:0.264583">build folder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="134.61758"
+       y="176.92921"
+       id="text853"><tspan
+         sodipodi:role="line"
+         id="tspan851"
+         x="134.61758"
+         y="176.92921"
+         style="stroke-width:0.264583">deploy script</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="29.106249"
+       y="224.44432"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="29.106249"
+         y="224.44432"
+         style="stroke-width:0.264583">build.py script</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect859"
+       width="185.4872"
+       height="121.83322"
+       x="15.5"
+       y="158.05684"
+       rx="5"
+       ry="4.6255364" />
+    <text
+       xml:space="preserve"
+       id="text861"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';white-space:pre;shape-inside:url(#rect863);"
+       transform="translate(-238.2237,107.71406)"><tspan
+         x="268.81836"
+         y="-2.3608697"><tspan>git CLI tool</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="22.646542"
+       y="23.009821"
+       id="text869"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="22.646542"
+         y="23.009821"
+         style="stroke-width:0.264583">GitHub repository</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect859-3"
+       width="181.81651"
+       height="28.417955"
+       x="19.907234"
+       y="27.623064"
+       rx="4.3101149"
+       ry="3.320554" />
+    <text
+       xml:space="preserve"
+       id="text886"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';white-space:pre;shape-inside:url(#rect888);"
+       transform="translate(-169.55942,83.318189)"><tspan
+         x="202.125"
+         y="-37.993682"><tspan>main branch</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT';stroke-width:0.264583"
+       x="125.10979"
+       y="44.531067"
+       id="text894"><tspan
+         sodipodi:role="line"
+         id="tspan892"
+         x="125.10979"
+         y="44.531067"
+         style="stroke-width:0.264583">gh-pages branch</tspan></text>
+    <g
+       id="g902"
+       transform="translate(42.275188,285.74066)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-6"
+       transform="translate(42.503195,236.85318)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896-7"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-5"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-3"
+       transform="rotate(90,-49.821314,116.60097)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896-5"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-6"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-36"
+       transform="translate(42.517121,167.39309)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896-06"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-2"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-61"
+       transform="translate(42.579044,115.40077)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896-8"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-3-9"
+       transform="rotate(-90,188.71684,40.57925)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,-28 8.006824,-50.712095 0.077324,-45"
+         id="path896-5-2"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-6-0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g902-61-2"
+       transform="translate(151.91536,114.04473)"
+       style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.147994,33.969063 8.006824,-50.712095 0.077324,-45"
+         id="path896-8-3"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.006814,-50.712094 16.007,-45"
+         id="path898-7-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

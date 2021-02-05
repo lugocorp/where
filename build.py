@@ -25,7 +25,14 @@ def author_links(author):
         return " | ".join(list(map(lambda x:"<a href=\"%s\">%s</a>"%(x["url"],x["name"]),author["links"])))
     return ""
 def get_query(x):
-    return ("%s %s %s"%(x["title"],x["desc"]," ".join(x["authors"].split(", ")))).lower()
+    tags=x["tags"] if "tags" in x else []
+    return ("%s %s %s %s %s %s"%(x["title"],x["desc"],x["type"],x["date"]," ".join(tags)," ".join(x["authors"].split(", ")))).lower()
+def get_tags(x):
+    tags=[]
+    for t in x["tags"]: tags.append("<span>%s</span>"%t)
+    tags.append("<span class=\"tag-date\">%s</span>"%x["date"])
+    tags.append("<span class=\"tag-type tag-%s\">%s</span>"%(x["type"],x["type"]))
+    return "".join(tags)
 def get_font(x):
     if "font" in x:
         return " style='font-family:\"%s\"'"%x["font"]
@@ -92,13 +99,14 @@ for post in data["posts"]:
     else:
         print("Invalid content type '%s' provided"%content_type)
         sys.exit(1)
-    projects.append({"title":title,"link":link,"authors":names,"desc":desc,"type":content_type,"thumbnail":thumbnail})
+    tags=post["tags"] if "tags" in post else []
+    projects.append({"title":title,"link":link,"authors":names,"desc":desc,"type":content_type,"thumbnail":thumbnail,"date":post["date"],"tags":tags})
 
 # Write index.html
 file=open("src/index.html","r")
 template=file.read()
 file.close()
-code="".join(list(map(lambda x:"<div query=\"%s\" thumbnail=\"%s\" class=\"%s\"><a href=\"%s.html\"><h1>%s</h1><h2>%s</h2><p>%s</p></a><hr></div>"%(get_query(x),x["thumbnail"] or "",x["type"],x["link"],x["title"],x["authors"],x["desc"]),projects)))
+code="".join(list(map(lambda x:"<div query=\"%s\" thumbnail=\"%s\" class=\"%s\"><a href=\"%s.html\"><h1>%s</h1><h2>%s</h2><p>%s</p><div class=\"tags\">%s</div></a><hr></div>"%(get_query(x),x["thumbnail"] or "",x["type"],x["link"],x["title"],x["authors"],x["desc"],get_tags(x)),projects)))
 file=open("build/index.html","w")
 file.write(template%code)
 file.close()
