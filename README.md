@@ -30,3 +30,6 @@ Open up the terminal from this project directory and run `python build.py`. It w
 
 ### Step 3: Deploy changes
 Run `./deploy` in your terminal from this project directory to publish your changes to the site. The script will automatically rebuild the site and add git capability to the result. It will set the remote repository to our GitHub pages hosting service and begin an upload. You may be asked to enter your GitHub username and password. You'll need to be added to our remote repository or it won't let you upload.
+
+## Process map
+<img src="process-map.svg" height="600px"/>
