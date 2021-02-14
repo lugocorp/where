@@ -42,11 +42,10 @@ $(document).ready(function(){
       if(possible && delta>=0 && above){
         opacity=1;
         possible=false;
+        let type=$(this).attr("class");
         let thumb=$(this).attr("thumbnail");
-        if(thumb.length) $(".preview").attr("src",thumb)
-          .css("border",`solid 5px ${colors[$(this).attr("class")]}`);
-        else $(".preview").attr("src","res/where/white.png")
-          .css("border","none");
+        if(thumb.length && type) $(".preview").attr("src",thumb).css("border",`solid 5px ${colors[type]}`);
+        else $(".preview").attr("src","res/where/white.png").css("border","none");
       }
       $(this).css("opacity",opacity);
       above=(delta<0);

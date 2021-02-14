@@ -119,8 +119,8 @@ body{
   .main-page .header{
     line-height:36px;
     font-size:27px;
-    height:130px;
-    padding:0;
+    padding:15px;
+    height:auto;
   }
   .main-page .header img{
     height:25px;
