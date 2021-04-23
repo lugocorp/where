@@ -28,6 +28,8 @@ The data.json file is an object with "posts" and "authors" as the two keys. Both
 ### Step 2: Rebuild the site and test
 Open up the terminal from this project directory and run `python build.py`. It won't work if you're not using Python 3. I developed this with Python 3.8.5. Run `python -V` to figure out which version you have. If you're not using 3 then good luck, Python version control is notoriously terrible. Maybe I should have used Node.js for this...
 
+Also, you can open build/index.html in your browser to view the site before deploying.
+
 ### Step 3: Deploy changes
 Run `./deploy` in your terminal from this project directory to publish your changes to the site. The script will automatically rebuild the site and add git capability to the result. It will set the remote repository to our GitHub pages hosting service and begin an upload. You may be asked to enter your GitHub username and password. You'll need to be added to our remote repository or it won't let you upload.
 
