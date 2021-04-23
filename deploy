@@ -5,6 +5,7 @@ echo "wherethemag.com" > build/CNAME
 pushd build > /dev/null
 git init
 git remote add origin https://github.com/lugocorp/where.git
+git remote set-url origin git@github.com:lugocorp/where.git
 git add .
 git commit -m "Update on $(date)"
 git push -f origin master:gh-pages
