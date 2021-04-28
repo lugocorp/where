@@ -182,13 +182,13 @@
     },
     {
       "type":"video",
-      "name":"Welcome to where?!",
+      "name":"welcome to where?!",
       "desc":"We asked some artists what where?! meant to them and this is what they came up with. What does where?! mean to you? Video editor @youngeraser",
-      "thumbnail":"res/welcomeWhere/wherePic.png",
+      "thumbnail":"res/welcome-where/where-pic.jpg",
       "authors":["Heba"],
       "date":"December 2020",
       "content":[
-        "res/welcomeWhere/welcomeWhere.mp4"
+        "res/welcome-where/welcome-where.mp4"
       ]
     }
   ],
