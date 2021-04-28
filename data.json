@@ -187,9 +187,7 @@
       "thumbnail":"res/welcome-where/where-pic.jpg",
       "authors":["Heba"],
       "date":"December 2020",
-      "content":[
-        "res/welcome-where/welcome-where.mp4"
-      ]
+      "content":"res/welcome-where/welcome-where.mp4"
     }
   ],
   "authors":[
