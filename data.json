@@ -1,6 +1,31 @@
 {
   "posts":[
     {
+      "type":"gallery",
+      "name":"Ink !",
+      "desc":"Description Coming Soon",
+      "thumbnail":"res/ink/ink3.PNG",
+      "authors":["Hunter"],
+      "date":"April 2021",
+      "content":[
+        "I used to only create from a dark place. For me art was my therapy, it was my outlet for negative emotions. It felt like art for me was a way of healing. When I was feeling down I didn't have to even think about it, I could just create.", 
+        "res/ink/ink1.jpg",
+        "res/ink/ink2.jpg",
+        "res/ink/ink3.PNG",
+        "res/ink/ink4.jpg",
+        "Eventually I tried to change that, I didn't only want to be able to feel my most creative and most visionary when I'm sad. You don't want to be channelling only negative emotions for something you like to do. You don't want to be depressed for something you're good at. It was kind of a struggle to change it. I started looking for prompts. Putting myself into places where I had to create. Joining clubs. I get inspired when I create with other people.", 
+        "res/ink/ink11.jpg",
+        "res/ink/ink5.jpg",
+        "res/ink/ink6.jpg",
+        "There was one thing that I liked though. When you create as therapy, you get those thoughts out of your head. It allows you to look at your thoughts in a different angle. When you look at what you create, you can see: maybe those negative emotions weren't even so bad.",
+        "res/ink/ink7.jpg",
+        "res/ink/ink8.jpg",
+        "res/ink/ink9.jpg",
+        "Now, what I want people to take away from my art is to be inspired to change. To be given an emotion that allows them to do something--whether that emotion is happy, sad, etc. A lot of my stuff is on creating futures, they're abstract. So it can be interpreted in many different ways, depending on where you're coming from. I just want you to feel like you're ready to take action like you're ready to change. Whatever that change means to you.",
+        "res/ink/ink10.jpg"
+      ]
+    },
+    {
       "type":"essay",
       "name":"Dan Sultan (Kaiju)",
       "desc":"This piece explores the contradictions of man’s and society’s fickle moral fiber. When times are good, all that’s presented is good, but when times get tough, or the opportunity to seize and betray is presented, the inner monster, the inner Kaiju so to speak, rears its head. Of course, the one who avoids such spinelessness is a boss, a Dan Sultan of sorts. Photo by Myke Symon on Unsplash.",
@@ -225,11 +250,12 @@
       ]
     },
     {
-      "name":"Sibga",
-      "desc":"Seems very cool and nice. 10/10.Favorite greek letter: Σ",
-      "img":"res/people/sibga.png",
+      "name":"Hunter",
+      "desc":"description coming soon",
+      "img":"res/people/hunter.jpeg",
       "links":[
-        {"name":"Instagram","url":"https://www.instagram.com/sibby820/"}
+        {"name":"Instagram","url":"https://www.instagram.com/hunterrr.jpg/"},
+        {"name":"Website","url":"https://www.hunterjpg.com/"}
       ]
     },
     {
