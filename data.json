@@ -3,7 +3,7 @@
     {
       "type":"gallery",
       "name":"Ink !",
-      "desc":"Description Coming Soon",
+      "desc":"Ink was a collection of 17 works created with ink and sharpie on paper. The project was loosely based on Inktober which is a month long online event that asks artists to create works of art in ink for each day in October. I didn’t follow any prompts, I just took the challenge as an opportunity to draw with ink as my medium for as many days in October as possible. My inspiration for the images was Halloween and many cult favorite horror films. I tried to incorporate spooky themes such as cyborg birds, bloodsucking femmes, and censoring on the internet.",
       "thumbnail":"res/ink/ink3.PNG",
       "authors":["Hunter"],
       "date":"April 2021",
@@ -21,7 +21,13 @@
         "res/ink/ink8.jpg",
         "res/ink/ink9.jpg",
         "Now, what I want people to take away from my art is to be inspired to change. To be given an emotion that allows them to do something--whether that emotion is happy, sad, etc. A lot of my stuff is on creating futures, they're abstract. So it can be interpreted in many different ways, depending on where you're coming from. I just want you to feel like you're ready to take action like you're ready to change. Whatever that change means to you.",
-        "res/ink/ink10.jpg"
+        "res/ink/ink10.jpg",
+        "res/ink/ink12.jpg",
+        "Other Works",
+        "res/ink/john.jpg",
+        "res/ink/breathe.jpg",
+        "res/ink/umd.jpg",
+        "Find more at https://www.hunterjpg.com/"
       ]
     },
     {
@@ -250,7 +256,7 @@
     },
     {
       "name":"Hunter",
-      "desc":"description coming soon",
+      "desc":"I take on various mediums that attempt to intrigue the viewer and spark a desire to create radical structural change. Every piece makes one question what they are actively doing to create a sustainable and equitable future.",
       "img":"res/people/hunter.jpeg",
       "links":[
         {"name":"Instagram","url":"https://www.instagram.com/hunterrr.jpg/"},
