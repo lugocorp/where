@@ -274,7 +274,7 @@ body{
   box-sizing:border-box;
   border-radius:30px;
   height:300px;
-  width:300px;
+  width:auto;
 }
 @media only screen and (max-width:800px){
   .content-page .up p{
@@ -430,7 +430,7 @@ body{
   position:relative;
   display:block;
   margin:75px 0;
-  height:300px;
+  height:auto;
   width:300px;
 }
 @media only screen and (max-width:1000px){
