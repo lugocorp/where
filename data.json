@@ -1,6 +1,27 @@
 {
   "posts":[
     {
+      "type":"essay",
+      "name":"The Man Who Bearly Left His Cabin",
+      "desc":"Written immediately after my first therapy session in five years, this parable acts as a cautionary tale on unhealthy coping mechanisms. Learning that our coping methods are harming us--rather than helping us--can be both frightening and freeing. Our learning often only starts after those methods fail us, however, leaving us lost. Photo by Zak Greant on Flickr",
+      "thumbnail":"res/realbearly.jpg",
+      "authors":["Zach Styles"],
+      "date":"May 2021",
+      "content":[
+        "There once was a man who lived in a cabin in the woods who was deathly afraid of bears.",
+        "This fear was not irrational. His family had been attacked by bears. His friends had been attacked by bears. He’d seen strangers get attacked by bears. Even he himself had narrowly escaped a bear attack in the past. Indeed, he had every right to be afraid of bears.",
+        "To keep the bears away – a couple of which he had seen skulking around the cabin once or twice – he set up hundreds of beartraps. He set up so many traps that he could barely maneuver around them when leaving his cabin.",
+        "For this reason, he left his cabin less and less until he rarely left his cabin at all. The number of traps was so innumerable that his friends and family had trouble getting out to his cabin, some refusing to come because of both the traps, the bears, or both.",
+        "One brisk autumn day he left the safety of the cabin to navigate around the traps and retrieve his mail. The traps were very well-hidden – even more so by the autumn leaves that covered his yard – but he’d memorized each and every one of their locations.",
+        "Except one.",
+        "The jaws of the beartrap sprang to life and bit down on his left leg like a starving animal. There was a tell-tale “snap” of his bone breaking from the force of the trap’s jaws. The man howled in pain and fell hard on his back, narrowly missing one or two other traps.",
+        "The man laid in searing pain and panic for what feels like hours. He was bruised from the fall and bleeding from his head and leg wounds. He’s exhausted, he’s hurt, he’s drenched in sweat, he shook from the adrenaline.",
+        "He was frustrated, hoarse, hungry, thirsty, teary-eyed, numb from the cold. He’s alone. He’s lonely.",
+        "But you know what?",
+        "There were no bears."
+      ]
+    },
+    {
       "type":"gallery",
       "name":"Ink !",
       "desc":"Ink was a collection of 17 works created with ink and sharpie on paper. The project was loosely based on Inktober which is a month long online event that asks artists to create works of art in ink for each day in October. I didn’t follow any prompts, I just took the challenge as an opportunity to draw with ink as my medium for as many days in October as possible. My inspiration for the images was Halloween and many cult favorite horror films. I tried to incorporate spooky themes such as cyborg birds, bloodsucking femmes, and censoring on the internet.",
@@ -269,6 +290,14 @@
       "img":"res/people/heba.png",
       "links":[
         {"name":"Instagram","url":"https://www.instagram.com/heba.elahmad/"}
+      ]
+    },
+    {
+      "name":"Zach Styles",
+      "desc":"I wrote this story... but enough about me, go join the Palestinian liberation movement.",
+      "img":"res/people/zec.jpg",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/stylescommazach/"}
       ]
     },
     {
