@@ -1,6 +1,30 @@
 {
   "posts":[
     {
+      "type":"gallery",
+      "name":"DMORR Interview",
+      "desc":"Danielle (@_dmorr) is a artist from Baltimore, Maryland. Her art cuts through regular principles of form and space to create pieces that deliver emotion with a punch. We discuss the vulnerability of sharing your art.",
+      "thumbnail":"res/dmorr/dmorr4.jpg",
+      "authors":["DMORR"],
+      "date":"June 2021",
+      "content":[
+        "I've been doing art my entire life. When I was young, I remember ripping pictures and words out of magazines and making collages. But I've been very on and off with it. It's only been a year and a half since I started taking it seriously. Doing it more consistently.", 
+        "res/dmorr/dmorr1.jpg",
+        "res/dmorr/dmorr8.jpg",
+        "I remember in high school, I would show a painting I was doing on Snapchat. A couple people would tell me these are really good, you should be more vocal about this. There's this one friend, especially who would always tell me to sell my art, to do more with my art.", 
+        "res/dmorr/dmorr3.jpg",
+        "I would always make excuses. Shipping is so expensive, I don't have a nice camera to take a picture of my art, etc. I really wasn't confident about my art at all. Other people were more confident in my art than I was. I took art more seriously because of my friends pushing me, they really saw something in my work that I was too afraid to recognize.",
+        "res/dmorr/dmorr4.jpg",
+        "res/dmorr/dmorr5.jpg",
+        "When I share my art, even now, I still get nervous because it makes me feel incredibly vulnerable. I get a feeling in my stomach that's telling me that 'maybe I shouldn't include this or that since I'm posting this online'.",
+        "res/dmorr/dmorr6.jpg",
+        "But the fact that this is uncomfortable pushes me. I hate sharing my art on Instagram, but I still do it anyway just because I'm facing me being uncomfortable. I'm reaffirming to myself that my art matters to me, that my art is me.",
+        "res/dmorr/dmorr7.jpg",
+        "There are always going to be people who don't like my art, and that's okay. I'm making art for myself, and not for anybody but myself. Being public about my art has made me more confident about my art. I know my art is good now, and I know it can be better if I keep practicing. The more I post, the more it pushes me to practice.",
+        "res/dmorr/dmorr9.jpg"
+      ]
+    },
+    {
       "type":"essay",
       "name":"The Man Who Bearly Left His Cabin",
       "desc":"Written immediately after my first therapy session in five years, this parable acts as a cautionary tale on unhealthy coping mechanisms. Learning that our coping methods are harming us--not helping us--is both frightening and freeing. Our learning often starts after those methods fail us, however, leaving us lost. Photo by Zak Greant on Flickr",
@@ -298,6 +322,15 @@
       "img":"res/people/zec.jpg",
       "links":[
         {"name":"Instagram","url":"https://www.instagram.com/stylescommazach/"}
+      ]
+    },
+    {
+      "name":"DMORR",
+      "desc":"My name is Danielle and I am an artist from Maryland. I use my art to reach others by expressing my thoughts, feelings, and emotions through my art. I will draw on anything I see from a sketchbook to a pair of jeans. Art has helped me through the hardest times in my life and I hope to reach others with it.",
+      "img":"res/people/dmorr2.jpg",
+      "links":[
+        {"name":"Instagram","url":"https://www.instagram.com/style/morebydanielle"},
+        {"name":"Etsy","url":"https://www.etsy.com/shop/MoreByDanielle"}
       ]
     },
     {
