@@ -5,11 +5,10 @@
       "name":"Nostalgia Radio Interview",
       "desc":"We talk to Belchan, the Host of Nostalgia Radio, about how he makes mixes filled with music that he feels will stand the test of time, how to take mood into the creative process, and how Nostalgia Radio got started.",
       "thumbnail":"res/nostalgiaRadionone.png",
-      "authors":["Belchan"],
+      "authors":["Belchan/Nostalgia Radio"],
       "tags":["Interview"],
       "date":"October 2022",
       "content":[
-        "nostalgiaradio.html",
         "Recommending music to somebody can be hard. Yet, Nostalgia Radio does this every week.", 
         "We talk to Belchan, the Host of Nostalgia Radio, about how he makes mixes filled with music that he feels will stand the test of time, how to take mood into the creative process, and how Nostalgia Radio got started.",
         "Read a summary of our interview below.",
@@ -313,6 +312,14 @@
     }
   ],
   "authors":[
+    {
+      "name":"Belchan/Nostalgia Radio",
+      "desc":"Follow the Sound",
+      "img":"res/nostalgiaradioavi.png",
+      "links":[
+        {"name":"Linktree","url":"https://linktr.ee/NostalgiaRadio"}
+      ]
+    },
     {
       "name":"Alex Lugo",
       "desc":"Developer, entrepreneur and artist",
